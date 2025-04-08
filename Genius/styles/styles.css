@@ -1,0 +1,98 @@
+:root {
+  --color-brand: #819b57;
+  --color-brand-dark: #465929;
+  --color-primari-dark: #31261a;
+  --color-primari-light: #faf4ea;
+}
+
+/* Base */
+body {
+  color: var(--color-primari-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+/* Buttons */
+
+.button {
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 8px;
+  padding: 16px 32px;
+  width: 238px;
+  height: 59px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-primari-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/* Link */
+
+.link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-primari-light);
+}
+
+.link:hover {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-brand);
+}
+
+/* Hero section */
+
+.hero-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 128px;
+  text-align: center;
+  color: var(--color-brand);
+}
+
+.hero-title .accent {
+  color: var(--color-primari-light);
+}
+
+/* Advantages section */
+
+.advantages-list {
+  padding: 16px 99px;
+  width: 1440px;
+  height: 62px;
+  backdrop-filter: blur(4px);
+  background: var(--color-brand);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--color-primari-light);
+}
+
+.sections-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+
+  /* line-height: 84px; */
+  line-height: 131%;
+  color: var(--color-primari-dark);
+}
+
+.sections-title .accent {
+  color: var(--color-brand-dark);
+}
